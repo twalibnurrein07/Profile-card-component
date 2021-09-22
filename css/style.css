@@ -1,0 +1,42 @@
+body{
+    background-image: url(../images/bg-pattern-bottom.svg);
+background-color: #38A3A5;
+font-size:18px;
+font-family: 'Kumbh Sans', sans-serif;
+}
+section{
+padding: 159px 200px 159px 450px;
+}
+h5{
+  color: hsl(229,23%,23%);
+  font-weight: 700;
+}
+p{
+  color: hsl(227,10%,46%);
+}
+.card-body{
+  text-align: center;
+  padding: 35px 16px 20px 16px;
+}
+.footer{
+  border-top-style: solid;
+  border-width: thin;
+  border-color: hsl(227,10%,46%);
+
+}
+.footer{
+  padding: 30px 20px 7px 50px;
+}
+.victor{
+  border-radius:50%;
+  position:absolute;
+  top: 120px;
+  left: 180px;
+}
+
+@media  screen and (max width:769px){
+  section{
+    padding:10px 20px 10px 20px;
+    background-color: red;
+  }
+}
