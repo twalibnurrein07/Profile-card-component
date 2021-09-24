@@ -5,9 +5,9 @@ font-size:18px;
 font-family: 'Kumbh Sans', sans-serif;
 }
 section{
-padding: 159px 200px 159px 450px;
+padding: 15px 20px 5px 15px;
 }
-h5{
+h5,.col-4{
   color: hsl(229,23%,23%);
   font-weight: 700;
 }
@@ -34,9 +34,9 @@ p{
   left: 180px;
 }
 
-@media  screen and (max width:769px){
+@media  screen and (min width:1440px){
   section{
-    padding:10px 20px 10px 20px;
-    background-color: red;
+    padding:padding: 159px 200px 159px 450px;
+
   }
 }
